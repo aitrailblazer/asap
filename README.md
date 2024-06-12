@@ -123,8 +123,11 @@ Crafting a sophisticated chatbot using Azure OpenAI services also posed difficul
 
 ## Accomplishments We're Proud Of
 
-<img src="https://raw.githubusercontent.com/aitrailblazer/asap/main/img/ASAP-01-steps-copyright.png" width="312"/>
 
+
+<div style="width: 512px; border: 1px solid #ddd; padding: 10px; margin: 0 auto;">
+  <img src="https://raw.githubusercontent.com/aitrailblazer/asap/main/img/ASAP-01-steps-copyright.png" width="100%"/>
+</div>
 
 - **Pioneering AI Integration in Software Documentation**: Streamlined data management for enhanced user engagement and personalized experiences.
 - **Developing Advanced Functionalities**: Introduced unique features like multi-copilot systems, chat session management, and customizable settings.
