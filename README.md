@@ -1,6 +1,6 @@
 # ASAP: Your All-In-One AI-Powered Workplace for Streamlining Document Creation
 
-![ASAP](ASAP.png)
+![ASAP](https://github.com/aitrailblazer/asap/blob/main/img/ASAP.png)
 Subject: **ASAP** is your all-in-one AI-powered workplace where you can manage the multitude of document writing tasks and projects that come your way.
  
 **ASAP**: Your All-In-One Ai-Powered Workplace for Streamlining Document Creation
