@@ -123,7 +123,7 @@ Crafting a sophisticated chatbot using Azure OpenAI services also posed difficul
 
 ## Accomplishments We're Proud Of
 
-<img src="https://raw.githubusercontent.com/aitrailblazer/asap/main/img/ASAP-01-steps-copyright.png" width="312"/>
+<img src="https://raw.githubusercontent.com/aitrailblazer/asap/main/img/ASAP-01-steps-copyright.png" width="428"/>
 
 
 - **Pioneering AI Integration in Software Documentation**: Streamlined data management for enhanced user engagement and personalized experiences.
