@@ -1,6 +1,6 @@
 # ASAP: Your All-In-One AI-Powered Workplace for Streamlining Document Creation
 
-![ASAP](img/ASAP.png)
+![ASAP](https://github.com/aitrailblazer/asap/blob/main/img/ASAP.png)
 Subject: **ASAP** is your all-in-one AI-powered workplace where you can manage the multitude of document writing tasks and projects that come your way.
  
 **ASAP**: Your All-In-One Ai-Powered Workplace for Streamlining Document Creation
@@ -8,7 +8,7 @@ Subject: **ASAP** is your all-in-one AI-powered workplace where you can manage t
 ## Inspiration
 
 
-![Inspiration](/img/ASAP-002-copyright.png)
+![Inspiration](https://github.com/aitrailblazer/asap/blob/main/img/ASAP-002-copyright.png)
 The idea for this app was inspired by the powerful potential of GenAI to streamline the time-consuming process of creating documents, enhancing efficiency, and boosting productivity.
 
 In the business and corporate world, writing documents is essential across various sectors and purposes, such as creating reports, proposals, analyses, instructions, and presentations for internal and external communication. It also involves writing technical documentation, manuals, user guides, and training materials, among other tasks.
