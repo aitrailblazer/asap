@@ -37,7 +37,7 @@ Recent statistics show that project development lasts an average of four and a h
 ASAP: Speed Up Document Creation, Excel in Performance, Meet Deadlines.
 Smaller workload. Maximum efficiency.
 
-### Summary:
+### Summary
 
 ASAP is a platform that brings together all AI copilots you need for seamless document creation in one workspace. You no longer need to switch between tabs, directories, or applications to access various disconnected AI tools.
 
@@ -52,7 +52,7 @@ Powered by Azure Cosmos DB and Azure OpenAI Service, this suite redefines docume
 
 ### Problem
 
-![What it does](https://raw.githubusercontent.com/aitrailblazer/asap/main/img/ASAP-Screenshot-02.png)
+![Problem](https://raw.githubusercontent.com/aitrailblazer/asap/main/img/ASAP-Screenshot-02.png)
 
 Creating software documentation is time-consuming, prone to inaccuracies and inconsistencies, and often results in information overload, hindering development speed and team efficiency.
 ASAP's AI-Powered Suite is designed to address key pain points in software documentation, focusing on efficiency, accuracy, and information manageability.
@@ -66,7 +66,7 @@ These pain points collectively reduce development speed and cause frustration wi
 
 ## Solution
 
-![What it does](https://raw.githubusercontent.com/aitrailblazer/asap/main/img/ASAP-Screenshot-03.png)
+![Solution](https://raw.githubusercontent.com/aitrailblazer/asap/main/img/ASAP-Screenshot-03.png)
 
 ASAP integrates semantic AI, structured ontologies, cloud services, and Microsoft Graph to create accurate, efficient, and easily managed software documentation tailored to organizational needs.
 Below are the key features and benefits of this innovative solution:
@@ -86,7 +86,7 @@ In summary, ASAP's AI-Powered Suite is revolutionizing software documentation by
 ## Benefits
 
 
-![What it does](https://raw.githubusercontent.com/aitrailblazer/asap/main/img/ASAP-Screenshot-04.png)
+![Benefits](https://raw.githubusercontent.com/aitrailblazer/asap/main/img/ASAP-Screenshot-04.png)
 
 1. Efficiency: The suite reduces the time needed to search and organize software documentation by utilizing AI for enhanced session management and semantic searching capabilities.
 
@@ -100,7 +100,7 @@ In summary, ASAP's AI-Powered Suite is revolutionizing software documentation by
  
 ## Competitive Analysis
 
-![What it does](https://raw.githubusercontent.com/aitrailblazer/asap/main/img/ASAP-Screenshot-05.png)
+![Competitive Analysis](https://raw.githubusercontent.com/aitrailblazer/asap/main/img/ASAP-Screenshot-05.png)
 
 Competitors in AI-powered documentation solutions often fall short on semantic intelligence and customized data structures. ASAP stands out by offering specific organizational ontology tailoring and advanced cloud-based data handling, outperforming competitors on both functionality and accuracy.
 
@@ -110,7 +110,7 @@ Additionally, ASAP seamlessly integrates with Microsoft Graph, allowing for effi
 
 ## How we built it
 
-![What it does](https://raw.githubusercontent.com/aitrailblazer/asap/main/img/ASAP-Screenshot-06.png)
+![How we built it](https://raw.githubusercontent.com/aitrailblazer/asap/main/img/ASAP-Screenshot-06.png)
 
 Crafting the ASAP solution involved designing a RAG pattern that seamlessly integrates MongoDB’s vector database capabilities with Azure OpenAI’s vector search and AI-assisted user interface. This created an environment where data is not only stored but transformed into streamlined knowledge, empowering developers and enhancing the software development lifecycle.
 
@@ -123,7 +123,7 @@ Crafting a sophisticated chatbot using Azure OpenAI services also posed difficul
 
 ## Accomplishments We're Proud Of
 
-![What it does](https://raw.githubusercontent.com/aitrailblazer/asap/main/img/ASAP-01-steps-copyright.png)
+![Accomplishments We're Proud Of](https://raw.githubusercontent.com/aitrailblazer/asap/main/img/ASAP-01-steps-copyright.png)
 
 - **Pioneering AI Integration in Software Documentation**: Streamlined data management for enhanced user engagement and personalized experiences.
 - **Developing Advanced Functionalities**: Introduced unique features like multi-copilot systems, chat session management, and customizable settings.
