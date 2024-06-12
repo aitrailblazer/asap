@@ -1,6 +1,6 @@
 # ASAP: Your All-In-One AI-Powered Workplace for Streamlining Document Creation
 
-![ASAP](https://github.com/aitrailblazer/asap/blob/main/img/ASAP.png)
+![ASAP](https://raw.githubusercontent.com/aitrailblazer/asap/main/img/ASAP.png)
 Subject: **ASAP** is your all-in-one AI-powered workplace where you can manage the multitude of document writing tasks and projects that come your way.
  
 **ASAP**: Your All-In-One Ai-Powered Workplace for Streamlining Document Creation
@@ -8,7 +8,7 @@ Subject: **ASAP** is your all-in-one AI-powered workplace where you can manage t
 ## Inspiration
 
 
-![Inspiration](https://github.com/aitrailblazer/asap/blob/main/img/ASAP-002-copyright.png)
+![Inspiration](https://raw.githubusercontent.com/aitrailblazer/asap/main/img/ASAP-002-copyright.png)
 The idea for this app was inspired by the powerful potential of GenAI to streamline the time-consuming process of creating documents, enhancing efficiency, and boosting productivity.
 
 In the business and corporate world, writing documents is essential across various sectors and purposes, such as creating reports, proposals, analyses, instructions, and presentations for internal and external communication. It also involves writing technical documentation, manuals, user guides, and training materials, among other tasks.
@@ -26,6 +26,8 @@ The simplicity of free text search makes our app's functionalities accessible to
 At AITrailblazer, we envision a versatile suite of copilots that automate essential parts of the document creation process, boost productivity, and deliver high-quality, consistent results. Our goal is to enhance operational efficiency and make our sophisticated AI tools accessible and easy to use for non-experts, without requiring them to master complex prompts and query syntax.
  
 ## What it does
+
+![What it does](https://raw.githubusercontent.com/aitrailblazer/asap/main/img/ASAP-Screenshot-01.png)
 
 How Much Time Do You Need to Document a Software Solution?
 
@@ -48,7 +50,9 @@ Revolutionizing Documentation Workflows
 Powered by Azure Cosmos DB and Azure OpenAI Service, this suite redefines documentation with its vector search solution and AI interface. Its advanced integration with Microsoft Graph enables quick content assimilation from multiple sources, ensuring documentation integrity. Predefined templates save time and enhance consistency across various contexts, from user manuals to system architecture.
  
 
-### Problem:
+### Problem
+
+![What it does](https://raw.githubusercontent.com/aitrailblazer/asap/main/img/ASAP-Screenshot-02.png)
 
 Creating software documentation is time-consuming, prone to inaccuracies and inconsistencies, and often results in information overload, hindering development speed and team efficiency.
 ASAP's AI-Powered Suite is designed to address key pain points in software documentation, focusing on efficiency, accuracy, and information manageability.
@@ -61,6 +65,8 @@ ASAP's AI-Powered Suite is designed to address key pain points in software docum
 These pain points collectively reduce development speed and cause frustration within teams, making the search for effective solutions a critical concern for software organizations.
 
 ## Solution
+
+![What it does](https://raw.githubusercontent.com/aitrailblazer/asap/main/img/ASAP-Screenshot-03.png)
 
 ASAP integrates semantic AI, structured ontologies, cloud services, and Microsoft Graph to create accurate, efficient, and easily managed software documentation tailored to organizational needs.
 Below are the key features and benefits of this innovative solution:
@@ -79,6 +85,9 @@ In summary, ASAP's AI-Powered Suite is revolutionizing software documentation by
 
 ## Benefits
 
+
+![What it does](https://raw.githubusercontent.com/aitrailblazer/asap/main/img/ASAP-Screenshot-04.png)
+
 1. Efficiency: The suite reduces the time needed to search and organize software documentation by utilizing AI for enhanced session management and semantic searching capabilities.
 
 2. Accuracy and Knowledge Tailoring: By creating a vectorized knowledge base with company-specific ontologies, the documentation is more accurate and tailored to an organization's terminology and processes.
@@ -91,6 +100,8 @@ In summary, ASAP's AI-Powered Suite is revolutionizing software documentation by
  
 ## Competitive Analysis
 
+![What it does](https://raw.githubusercontent.com/aitrailblazer/asap/main/img/ASAP-Screenshot-05.png)
+
 Competitors in AI-powered documentation solutions often fall short on semantic intelligence and customized data structures. ASAP stands out by offering specific organizational ontology tailoring and advanced cloud-based data handling, outperforming competitors on both functionality and accuracy.
 
 ASAP offers unique differentiating features that set us apart from competitors. These include the integration of all productivity copilots working as a pipeline in one convenient workspace, which streamlines workflows and enhances productivity.
@@ -99,15 +110,20 @@ Additionally, ASAP seamlessly integrates with Microsoft Graph, allowing for effi
 
 ## How we built it
 
+![What it does](https://raw.githubusercontent.com/aitrailblazer/asap/main/img/ASAP-Screenshot-06.png)
+
 Crafting the ASAP solution involved designing a RAG pattern that seamlessly integrates MongoDB’s vector database capabilities with Azure OpenAI’s vector search and AI-assisted user interface. This created an environment where data is not only stored but transformed into streamlined knowledge, empowering developers and enhancing the software development lifecycle.
 
 ## Challenges we ran into
+
 
 Building ASAP presented significant challenges, including optimizing data management for speed and accuracy, integrating AI for intuitive user experiences, ensuring seamless data flow between traditional and vector databases, and developing a user-friendly interface.
 
 Crafting a sophisticated chatbot using Azure OpenAI services also posed difficulties in achieving natural language understanding and engaging user interactions. Additionally, maintaining scalability and reliability of the platform while ensuring personalized and efficient user experiences demanded innovative solutions and meticulous planning.
 
 ## Accomplishments We're Proud Of
+
+![What it does](https://raw.githubusercontent.com/aitrailblazer/asap/main/img/ASAP-01-steps-copyright.png)
 
 - **Pioneering AI Integration in Software Documentation**: Streamlined data management for enhanced user engagement and personalized experiences.
 - **Developing Advanced Functionalities**: Introduced unique features like multi-copilot systems, chat session management, and customizable settings.
