@@ -30,7 +30,7 @@ The simplicity of free text search makes our app's functionalities accessible to
 
 At AITrailblazer, we envision a versatile suite of copilots that automate essential parts of the document creation process, boost productivity, and deliver high-quality, consistent results. Our goal is to enhance operational efficiency and make our sophisticated AI tools accessible and easy to use for non-experts, without requiring them to master complex prompts and query syntax.
  
-## What it does
+## What It Does
 
 ![What it does](https://raw.githubusercontent.com/aitrailblazer/asap/main/img/ASAP-Screenshot-01.png)
 
