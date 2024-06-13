@@ -131,8 +131,6 @@ Crafting a sophisticated chatbot using Azure OpenAI services also posed difficul
 
 ## Accomplishments We're Proud Of
 
-
-
 <div style="width: 512px; border: 1px solid #ddd; padding: 10px; margin: 0 auto;">
   <img src="https://raw.githubusercontent.com/aitrailblazer/asap/main/img/ASAP-01-steps-copyright.png" width="100%"/>
 </div>
@@ -144,6 +142,12 @@ Crafting a sophisticated chatbot using Azure OpenAI services also posed difficul
 - **Overcoming Challenges:** Addressing and resolving challenges related to optimizing data management, ensuring intuitive user experiences, facilitating seamless data exchange between database types, and ensuring the platform's scalability and reliability.
 
 Enhancing User Interaction: Crafting a sophisticated chatbot experience using Azure OpenAI services, elevating user support, and interaction to new levels.
+
+One click vectorization
+
+<div style="width: 512px; border: 1px solid #ddd; padding: 10px; margin: 0 auto;">
+  <img src="https://raw.githubusercontent.com/aitrailblazer/asap/main/img/ASAP-02-steps.-copyright.png" width="100%"/>
+</div>
 
 ## What We Learned
 
