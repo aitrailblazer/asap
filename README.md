@@ -1,6 +1,6 @@
 # ASAP (Advanced Semantic AI Platform)
 
-![ASAP](https://raw.githubusercontent.com/aitrailblazer/asap/main/img/ASAP-logo.png)
+![ASAP](https://raw.githubusercontent.com/aitrailblazer/asap/main/img/ASAP-logo-04-copyright.png)
 
 ## AI-Powered Workspace for Streamlining Software Coding and Documentation
 
@@ -8,7 +8,7 @@
 ![ASAP](https://raw.githubusercontent.com/aitrailblazer/asap/main/img/ASAP-Screenshot-Hackathon-01.png)
 
 ## Inspiration
-![Inspiration](https://raw.githubusercontent.com/aitrailblazer/asap/main/img/ASAP-002-copyright.png)
+![Inspiration](https://raw.githubusercontent.com/aitrailblazer/asap/main/img/ASAP-03-Copyright.png)
 The idea for this app was inspired by GenAI's potential to streamline the time-consuming process of creating and retrieving software code and documentation by integrating sophisticated natural language search and automation capabilities. 
 
 We started this project to automate our own tasks, and it has grown into an incredible solution that we believe will benefit other professionals in the IT community as well. 
