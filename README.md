@@ -1,6 +1,10 @@
 # ASAP (Advanced Semantic AI Platform)
 
-![ASAP](https://raw.githubusercontent.com/aitrailblazer/asap/main/img/ASAP-logo-04-copyright.png)
+
+
+<div style="width: 512px; border: 1px solid #ddd; padding: 10px; margin: 0 auto;">
+  <img src="https://raw.githubusercontent.com/aitrailblazer/asap/main/img/ASAP-logo-04-small.png" width="400px"/>
+</div>
 
 ## AI-Powered Workspace for Streamlining Software Coding and Documentation
 
@@ -224,83 +228,6 @@ COSE offers a human-like, token-efficient approach to improve LLMs' memory organ
 
 COSE thus represents a powerful approach to optimizing LLMs for real-world applications, balancing efficiency, complexity, and adaptability in a way that mirrors human cognitive processes.
 
-### Example
-
-Informal notes for custom project:
-
-```text
-Vector Search Implementation for ABC Corp.
-Subject: Project: Vector Search Implementation for ABC Corp. From: Constantine To: Constantine Received: 06/20/2024 18:08
-
-Customer Notes. Project: Vector Search Implementation Consultant: John Doe Customer: ABC Corp
-
-Note 1
-
-Date: 2024-06-06
-
-The customer wants to implement Vector Search & AI Assistant for Azure Cosmos DB for MongoDB vCore. They need a guide on setting up the environment and integrating vector search capabilities.
-
-Note 2
-
-Date: 2024-06-07
-
-They also require detailed documentation on configuring AI services to assist with data queries and enhance search functionalities.
-
-Note 3
-
-Date: 2024-06-08
-
-The customer is interested in best practices for optimizing performance and ensuring scalability of the solution.
-```
-
-Using COSE Copilot with following settings:
-
-
-Settings:Create |OneShot |Technical |Distinguished |Large |Focused |Downward Synthesize 
-
-Note: the Target Audience Level is Distinguished - e.g. the highest level because it is intended to be used from computer for communication on highest level of understanding.
-
-```text
-[COMPRESS-START]
-
-Vector Search Implementation for ABC Corp. Project Notes:
-
-Implement Vector Search & AI Assistant on Azure Cosmos DB for MongoDB vCore—setup and integration guide needed. (2024-06-06).
-Detailed documentation required for configuring AI services to support data queries and enhance search functionalities. (2024-06-07).
-Provide best practices for optimizing performance and ensuring scalability. (2024-06-08).
-
-[COMPRESS-END]
-```
-
-Settings:Create |OneShot |Technical |Novice |Large |Focused |Downward Synthesize 
-
-Note: the Target Audience Level is Novice - e.g. the lowest level because it is intended to be use from a person with all information required to start and finish the project.
-
-```text
-
-[DECOMPRESS-START]
-
-ABC Corp. Project: Vector Search Implementation
-
-1. Implementing Vector Search & AI Assistant:
-   - Platform: Azure Cosmos DB for MongoDB vCore.
-   - Task: Setup and integration of vector search functionalities with AI Assistant.
-   - Date: June 6, 2024.
-   - Requirements: Comprehensive setup and integration guide.
-
-2. Configure AI Services:
-   - Focus: Supporting data queries.
-   - Enhancement: Improve search functionalities.
-   - Date: June 7, 2024.
-   - Documentation Needs: Detailed configuration instructions for AI services.
-
-3. Performance Optimization & Scalability:
-   - Goal: Achieve high performance and scalability.
-   - Recommendations: Best practices for optimization.
-   - Date: June 8, 2024.
-
-[DECOMPRESS-END]
-```
  
 ## What's Next for Advanced Semantic AI Platform (ASAP)
 
@@ -346,6 +273,7 @@ ASAP is dedicated to revolutionizing software coding and documentation by focusi
 <div style="width: 512px; border: 1px solid #ddd; padding: 10px; margin: 0 auto;">
   <img src="https://raw.githubusercontent.com/aitrailblazer/asap/main/img/ASAPScenario01.png" width="100%"/>
 </div>
+
 **Consultant’s Journey with ASAP: Optimizing Workflow with Azure Cosmos DB**
 
 A seasoned Azure Cosmos DB consultant received an inquiry from a prospective customer about developing an application utilizing Cosmos DB. Following their conversation, she compiled the customer's requirements and sent them via email, both to the customer and as a record for herself.
@@ -357,3 +285,263 @@ With the requirements entered into the database and vectorized, the consultant t
 Next, the consultant leverages DocGen to utilize the vectorized requirements and her custom ontology. The ontology follows a structured format of chapters and sections. Starting with one chapter, she configures DocGen to refine the output iteratively within a chat thread. Once satisfied with a section, she saves the final version.
  
 After completing each section and ensuring all chapters are ready, the consultant previews the entire document and makes necessary adjustments. Satisfied with the results, she uses ASAP to generate the final document as a PDF, fully optimized for her customer’s needs.
+
+### 1) Informal notes for custom project
+
+```text
+Vector Search Implementation for ABC Corp.
+Subject: Project: Vector Search Implementation for ABC Corp. From: Constantine To: Constantine Received: 06/20/2024 18:08
+
+Customer Notes. Project: Vector Search Implementation Consultant: John Doe Customer: ABC Corp
+
+Note 1
+
+Date: 2024-06-06
+
+The customer wants to implement Vector Search & AI Assistant for Azure Cosmos DB for MongoDB vCore. They need a guide on setting up the environment and integrating vector search capabilities.
+
+Note 2
+
+Date: 2024-06-07
+
+They also require detailed documentation on configuring AI services to assist with data queries and enhance search functionalities.
+
+Note 3
+
+Date: 2024-06-08
+
+The customer is interested in best practices for optimizing performance and ensuring scalability of the solution.
+```
+
+### 2) Vectorization-COMPRESS
+
+Using COSE Copilot with following settings:
+
+Settings:Create |OneShot |Technical |Distinguished |Large |Focused |Downward Synthesize 
+
+Note: the Target Audience Level is Distinguished - e.g. the highest level because it is intended to be used from computer for communication on highest level of understanding.
+
+```text
+[COMPRESS-START]
+
+Vector Search Implementation for ABC Corp. Project Notes:
+
+Implement Vector Search & AI Assistant on Azure Cosmos DB for MongoDB vCore—setup and integration guide needed. (2024-06-06).
+Detailed documentation required for configuring AI services to support data queries and enhance search functionalities. (2024-06-07).
+Provide best practices for optimizing performance and ensuring scalability. (2024-06-08).
+
+[COMPRESS-END]
+```
+
+### 3) Vectorization-DECOMPRESS
+
+Settings:Create |OneShot |Technical |Novice |Large |Focused |Downward Synthesize 
+
+Note: the Target Audience Level is Novice - e.g. the lowest level because it is intended to be use from a person with all information required to start and finish the project.
+
+```text
+
+[DECOMPRESS-START]
+
+ABC Corp. Project: Vector Search Implementation
+
+1. Implementing Vector Search & AI Assistant:
+   - Platform: Azure Cosmos DB for MongoDB vCore.
+   - Task: Setup and integration of vector search functionalities with AI Assistant.
+   - Date: June 6, 2024.
+   - Requirements: Comprehensive setup and integration guide.
+
+2. Configure AI Services:
+   - Focus: Supporting data queries.
+   - Enhancement: Improve search functionalities.
+   - Date: June 7, 2024.
+   - Documentation Needs: Detailed configuration instructions for AI services.
+
+3. Performance Optimization & Scalability:
+   - Goal: Achieve high performance and scalability.
+   - Recommendations: Best practices for optimization.
+   - Date: June 8, 2024.
+
+[DECOMPRESS-END]
+```
+
+### Leveraging AI Copilot Tasks
+
+After Vectorization-COMPRESS, use  Vectorization-DECOMPRESS as input to AI Copilot Tasks:
+
+
+---
+Task #1 Title: Setup Guide for Vector Search Implementation on Azure Cosmos DB for MongoDB vCore
+
+Category: Development
+
+Priority: High
+
+Framework Justification: Eisenhower Matrix - The task's importance is paramount due to its direct impact on the project's foundation, making it a high-priority task.
+
+Description: Create a comprehensive guide on setting up the environment for Vector Search and AI Assistant for Azure Cosmos DB for MongoDB vCore. Include steps for initial setup, required configurations, and integration processes.
+
+Due Date: 2024-06-13
+Assigned To: John Doe
+
+---
+Task #2 Title: Document Configuration of AI Services for Enhanced Search Functionalities
+
+Category: Documentation
+
+Priority: Medium
+
+Framework Justification: MoSCoW Method - Essential for the project’s completion but can be scheduled after initial setup, making it a 'Should have' task.
+
+Description: Develop detailed documentation on how to configure AI services to assist with data queries and enhance search functionalities. Provide examples and step-by-step instructions to ensure clarity.
+
+Due Date: 2024-06-20
+
+Assigned To: John Doe
+
+---
+
+Task #3 Title: Research and Document Best 
+
+Practices for Performance Optimization
+
+Category: Research/Documentation
+
+Priority: Medium
+
+Framework Justification: Pareto Principle - Identifying best practices will have a long-term impact on the project's success, focusing efforts on tasks that yield significant results.
+
+Description: Research industry best practices for optimizing performance and ensuring the scalability of the implemented Vector Search solution. Document findings and create guidelines to be included in the overall project documentation.
+
+Due Date: 2024-06-18
+
+Assigned To: John Doe
+
+
+
+### Select an Ontology for creating documentation.
+
+#### Comprehensive Guide to Azure Cosmos DB Documentation
+
+```text
+Comprehensive Guide to Azure Cosmos DB Documentation
+Software Documentation for Azure Cosmos DB Ontologies
+1. Requirements Documentation
+1. Introduction
+Purpose: Explain the functionality, scalability, and performance of Azure Cosmos DB.
+Scope: Cover features, limitations, and use cases.
+Definitions, Acronyms, and Abbreviations: Clarify terms such as "partitioning," "throughput," and "global distribution."
+References: Include links to Azure documentation, industry best practices, and regulatory standards.
+Overview: Summarize the database's multi-model capabilities, global distribution, and consistency models.
+2. Functional Requirements
+User Needs: Describe the requirements for managing globally distributed databases.
+System Operations: Specify CRUD operations, indexing, and query capabilities.
+User Interface: Detail the Azure Portal and SDK interfaces.
+3. Non-Functional Requirements
+Performance: Define latency targets and throughput requirements.
+Reliability: Describe SLAs, replication strategies, and failover mechanisms.
+Security: Outline encryption standards, access controls, and compliance with data protection laws.
+4. Data Requirements
+Data Models: Detail support for document, graph, key-value, table, and column-family data models.
+Data Storage: Define partitioning schemes, consistency levels, and backup strategies.
+Data Manipulation: Specify methods for querying with SQL, Gremlin, MongoDB API, and Table API.
+
+...
+```
+
+### Start generating section Introduction.
+
+The input is for example:
+
+---
+Task #2 Title: Document Configuration of AI Services for Enhanced Search Functionalities
+
+Category: Documentation
+
+Priority: Medium
+
+Framework Justification: MoSCoW Method - Essential for the project’s completion but can be scheduled after initial setup, making it a 'Should have' task.
+
+Description: Develop detailed documentation on how to configure AI services to assist with data queries and enhance search functionalities. Provide examples and step-by-step instructions to ensure clarity.
+
+Due Date: 2024-06-20
+
+Assigned To: John Doe
+
+---
+
+it is combined with
+
+Segment #1:
+
+```text
+Comprehensive Guide to Azure Cosmos DB Documentation
+1. Introduction
+Purpose: Explain the functionality, scalability, and performance of Azure Cosmos DB.
+Scope: Cover features, limitations, and use cases.
+Definitions, Acronyms, and Abbreviations: Clarify terms such as "partitioning," "throughput," and "global distribution."
+References: Include links to Azure documentation, industry best practices, and regulatory standards.
+Overview: Summarize the database's multi-model capabilities, global distribution, and consistency models.
+```
+
+with custom command: run it to produce:
+
+
+### Comprehensive Guide to Azure Cosmos DB Documentation
+
+#### 1. Introduction
+
+**Purpose:** This guide aims to provide an in-depth understanding of Azure Cosmos DB, focusing on its functionality, scalability, and performance.
+
+**Scope:** We'll cover the database's features, limitations, and use cases to give you a comprehensive overview of its capabilities.
+
+**Definitions, Acronyms, and Abbreviations:** 
+- **Partitioning:** Method to distribute data across separate storage units for better scalability.
+- **Throughput:** Measure of data flow rate; how much data can be processed per second.
+- **Global Distribution:** Capability of distributing data across multiple geographic regions for improved access and redundancy.
+
+**References:**
+- Azure Documentation: [Azure Cosmos DB Documentation](https://docs.microsoft.com/en-us/azure/cosmos-db/)
+- Industry Best Practices: Refer to published best practices for database management.
+- Regulatory Standards: Links to GDPR and other relevant regulatory information.
+
+**Overview:** Azure Cosmos DB is a globally distributed, multi-model database service. It supports various data models and offers five consistency levels. Its global distribution capabilities ensure data is available and responsive worldwide while maintaining high performance and scalability.
+
+### Task
+---
+
+**Document Configuration of AI Services for Enhanced Search Functionalities**
+
+#### Category: Documentation
+
+#### Priority: Medium
+
+**Description:** This section provides a step-by-step guide on configuring AI services to improve data query capabilities and enhance search functionalities.
+
+1. **Introduction to AI Services:**
+   - **Purpose:** AI services can analyze and interpret complex data queries, providing more accurate search results.
+   - **Scope:** Covers configuration, integration, and optimization.
+
+2. **Step-by-Step Configuration:**
+   - **Set Up AI Service:**
+     1. **Navigate to the Azure Portal:** Log in and select your subscription.
+     2. **Create a New AI Service:** Choose the service suitable for enhanced search, like Azure Cognitive Search.
+     3. **Configure Basic Settings:** Define your service name, location, and pricing tier.
+   - **Integration with Cosmos DB:**
+     1. **Connect Data Source:** Link your Azure Cosmos DB account as the data source.
+     2. **Index Data:** Set up indexing to ensure data is searchable.
+     3. **Define Search Index Schema:** Create fields and specify data types to be analyzed by AI.
+   - **Enhanced Search Features:**
+     1. **Natural Language Processing (NLP):** Enable NLP to improve query understanding.
+     2. **Synonym Mapping:** Add synonyms to improve search result relevance.
+     3. **Custom Scoring Profiles:** Create scoring profiles to prioritize certain data attributes.
+
+3. **Testing and Optimization:**
+   - **Run Test Queries:** Perform various searches to ensure configurations are correct.
+   - **Adjust Parameters:** Fine-tune index schema and scoring profiles based on test results.
+   - **Monitor Performance:** Use Azure Monitor to track usage and performance metrics.
+
+4. **Conclusion:**
+   - Ensuring AI services are correctly configured enhances the usability and relevance of search functionalities, driving better insights and data utilization.
+
+By following this guide, users will be equipped to set up and optimize AI services with Azure Cosmos DB, thereby enhancing search functionalities and improving data retrieval efficiency.
