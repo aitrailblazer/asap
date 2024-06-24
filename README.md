@@ -3,7 +3,7 @@
 
 
 
-![CloudSkillsChallengeScreenShotPython](https://raw.githubusercontent.com/aitrailblazer/asap/main/img/CloudSkillsChallengeScreenShotPython.png)
+![CloudSkillsChallengeScreenShotPython](https://raw.githubusercontent.com/aitrailblazer/asap/main/img/CloudSkillsChallengeScreenShotPythonNew.png)
 
 
 https://www.youtube.com/watch?v=TwLzHVDLThM
