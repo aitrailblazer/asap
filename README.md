@@ -2,9 +2,8 @@
 
 
 
-<div style="width: 512px; border: 1px solid #ddd; padding: 10px; margin: 0 auto; text-align: center;">
-  <img src="https://raw.githubusercontent.com/aitrailblazer/asap/main/img/ASAP-logo-04-smaller.png" width="400px"/>
-</div>
+
+![CloudSkillsChallengeScreenShotPython](https://raw.githubusercontent.com/aitrailblazer/asap/main/img/CloudSkillsChallengeScreenShotPython.png)
 
 ## AI-Powered Workspace for Streamlining Software Coding and Documentation
 
