@@ -9,18 +9,24 @@
 
 ## Inspiration
 ![Inspiration](https://raw.githubusercontent.com/aitrailblazer/asap/main/img/ASAP-03-Copyright.png)
-The idea for this app was inspired by GenAI's potential to streamline the time-consuming process of creating and retrieving software code and documentation by integrating sophisticated natural language search and automation capabilities. 
 
-We started this project to automate our own tasks, and it has grown into an incredible solution that we believe will benefit other professionals in the IT community as well. 
+I was inspired to participate in the hackathon by the chance to dive deep into the data infrastructure behind applications like OpenAI's ChatGPT. The innovative blend of AI’s speed with the reliability of traditional databases, as seen in Azure Cosmos DB, was incredibly exciting to explore.
 
-With 30 years of experience as a software engineer, I understand firsthand how IT professionals are overwhelmed by endless documentation. They not only struggle with tedious document and code generation tasks but also face significant inefficiencies in retrieving documents. Writing software documentation often took me as much time as developing the solutions, if not more. Moreover, finding and pinpointing the necessary information for a new document within a large database can be daunting. Even for experienced workers, this task can take hours or even days.
+With three decades of experience as a software engineer, I have firsthand knowledge of how overwhelming it can be to sift through vast databases for specific information. This process can take hours or even days, even for seasoned professionals. Allowing users to input queries in natural language streamlines search and retrieval, eliminating irrelevant data and saving time, while boosting productivity.
 
-The chance to streamline code and documentation creation and integrate GenAI's new natural language search capabilities is a truly inspiring prospect. 
+Inspired by the hackathon, I began developing a suite of AI-powered copilots under the name Advanced Semantic AI Platform (ASAP). These copilots streamline the tedious tasks of coding and generating technical documentation. The capability to conduct precise data searches using natural language, with data stored in a vectorized format in Cosmos DB, was exactly the solution I needed.
 
-Today, companies store a large variety of documents across multiple systems and databases. Allowing users to input queries in natural language enables more efficient search and retrieval of information. This eliminates the need for users to sift through irrelevant data, saving time and enhancing productivity. 
-Moreover, natural language search is versatile across various contexts and industries, allowing users of different experience levels and from different fields to interact with our app in ways that align with their specific needs and vocabularies.
+What's more, during my hackathon project, I uncovered additional major benefits of Azure Cosmos DB technology, particularly in solving fundamental issues related to code and documentation generation using AI.
 
-At AITrailblazer, we envision a versatile suite of copilots that automate key parts of the code and documentation creation process, boost productivity, and deliver high-quality, consistent results. Our goal is to enhance operational efficiency and make our sophisticated AI tools accessible and easy to use for non-experts, without requiring them to master complex prompts and query syntax.
+The main issue with code and documentation generators is the inconsistency and unreliability of generative AIs, which often introduce unexpected variations, sometimes even faulty ones, into the generated content. 
+Before starting to work on the hackathon, I applied an intuitive idea of using minimalistic yet highly efficient data formats to produce consistent and uniform output and to maintain prompt compatibility across different versions of language models. The use of vector databases has significantly improved this process by more effectively managing and retrieving large-scale data, ensuring that the context and relevance of responses are maintained even with updated models. 
+
+While exploring vectorization, I discovered the significance of integrating ontologies. These provide structured frameworks that enhance consistency, relevance, and adherence to industry standards in AI-generated documentation and code.
+
+I have developed a method called COSE (Cognitive Optimized Sparse Encoding), which leverages minimalistic yet efficient data formats. This approach aligns seamlessly with the inherently sparse and high-dimensional nature of vector databases. Integrating COSE into vector databases enhances data retrieval speeds and computational efficiency through cognitive optimization, facilitating adaptive and user-centric processing. This synergy not only boosts performance but also makes databases more intuitive, propelling advancements in AI and data science. The combination of the two technologies embodies a forward-thinking approach, ensuring optimal performance while maintaining user accessibility and ease of use.
+
+I began this project to automate my own tasks, and it has evolved into an extraordinary solution that I believe will greatly benefit other professionals in the IT community.
+
 
 ## What It Does
 ![What it does](https://raw.githubusercontent.com/aitrailblazer/asap/main/img/ASAP-Screenshot-01.png)
@@ -218,6 +224,83 @@ COSE offers a human-like, token-efficient approach to improve LLMs' memory organ
 
 COSE thus represents a powerful approach to optimizing LLMs for real-world applications, balancing efficiency, complexity, and adaptability in a way that mirrors human cognitive processes.
 
+### Example
+
+Informal notes for custom project:
+
+```text
+Vector Search Implementation for ABC Corp.
+Subject: Project: Vector Search Implementation for ABC Corp. From: Constantine To: Constantine Received: 06/20/2024 18:08
+
+Customer Notes. Project: Vector Search Implementation Consultant: John Doe Customer: ABC Corp
+
+Note 1
+
+Date: 2024-06-06
+
+The customer wants to implement Vector Search & AI Assistant for Azure Cosmos DB for MongoDB vCore. They need a guide on setting up the environment and integrating vector search capabilities.
+
+Note 2
+
+Date: 2024-06-07
+
+They also require detailed documentation on configuring AI services to assist with data queries and enhance search functionalities.
+
+Note 3
+
+Date: 2024-06-08
+
+The customer is interested in best practices for optimizing performance and ensuring scalability of the solution.
+```
+
+Using COSE Copilot with following settings:
+
+
+Settings:Create |OneShot |Technical |Distinguished |Large |Focused |Downward Synthesize 
+
+Note: the Target Audience Level is Distinguished - e.g. the highest level because it is intended to be used from computer for communication on highest level of understanding.
+
+```text
+[COMPRESS-START]
+
+Vector Search Implementation for ABC Corp. Project Notes:
+
+Implement Vector Search & AI Assistant on Azure Cosmos DB for MongoDB vCore—setup and integration guide needed. (2024-06-06).
+Detailed documentation required for configuring AI services to support data queries and enhance search functionalities. (2024-06-07).
+Provide best practices for optimizing performance and ensuring scalability. (2024-06-08).
+
+[COMPRESS-END]
+```
+
+Settings:Create |OneShot |Technical |Novice |Large |Focused |Downward Synthesize 
+
+Note: the Target Audience Level is Novice - e.g. the lowest level because it is intended to be use from a person with all information required to start and finish the project.
+
+```text
+
+[DECOMPRESS-START]
+
+ABC Corp. Project: Vector Search Implementation
+
+1. Implementing Vector Search & AI Assistant:
+   - Platform: Azure Cosmos DB for MongoDB vCore.
+   - Task: Setup and integration of vector search functionalities with AI Assistant.
+   - Date: June 6, 2024.
+   - Requirements: Comprehensive setup and integration guide.
+
+2. Configure AI Services:
+   - Focus: Supporting data queries.
+   - Enhancement: Improve search functionalities.
+   - Date: June 7, 2024.
+   - Documentation Needs: Detailed configuration instructions for AI services.
+
+3. Performance Optimization & Scalability:
+   - Goal: Achieve high performance and scalability.
+   - Recommendations: Best practices for optimization.
+   - Date: June 8, 2024.
+
+[DECOMPRESS-END]
+```
  
 ## What's Next for Advanced Semantic AI Platform (ASAP)
 
@@ -265,12 +348,12 @@ ASAP is dedicated to revolutionizing software coding and documentation by focusi
 </div>
 **Consultant’s Journey with ASAP: Optimizing Workflow with Azure Cosmos DB**
 
-John, a seasoned Azure Cosmos DB consultant, received an inquiry from a prospective customer about developing an application utilizing Cosmos DB. Following their conversation, John compiled the customer's requirements and sent them via email, not only to the customer but also as a record for himself.
-
-Juggling multiple clients, John relies on ASAP to streamline his workflow. He opens ASAP and clicks on the Microsoft Graph tab. Using the advanced search capabilities, he locates his emails containing the requirements. By vectorizing these emails, John ensures that he won’t need to resubmit them to GPT every time; ASAP combines the system prompt with the custom prompt for seamless future reference.
-
-With the requirements entered into the database and vectorized, John turns his attention to documentation. He accesses his internal company documents via the OneDrive interface within the Microsoft Graph tab and opens an unstructured document. Using OntologyGen, he customizes settings to create a structured ontology, storing the generated documentation in Azure Cosmos DB in vectorized form for efficient retrieval through Semantic Search.
-
-Next, John leverages DocGen to utilize the vectorized requirements and his custom ontology. The ontology follows a structured format of chapters and sections. Starting with one chapter, John configures DocGen to refine the output iteratively within a chat thread. Once satisfied with a section, he saves the final version.
-
-After completing each section as final and ensuring all chapters are ready, John previews the entire document and makes necessary adjustments. Satisfied with the results, he uses ASAP to generate the final document as a PDF, fully optimized for his customer’s needs.
+A seasoned Azure Cosmos DB consultant received an inquiry from a prospective customer about developing an application utilizing Cosmos DB. Following their conversation, she compiled the customer's requirements and sent them via email, both to the customer and as a record for herself.
+ 
+Juggling multiple clients, the consultant relies on ASAP to streamline her workflow. She opens ASAP and clicks on the Microsoft Graph tab. Using the advanced search capabilities, she locates her emails containing the requirements. By vectorizing these emails, she ensures that she won’t need to resubmit them to GPT every time; ASAP combines the system prompt with the custom prompt for seamless future reference.
+ 
+With the requirements entered into the database and vectorized, the consultant turns her attention to documentation. She accesses her internal company documents via the OneDrive interface within the Microsoft Graph tab and opens an unstructured document. Using OntologyGen, she customizes settings to create a structured ontology, storing the generated documentation in Azure Cosmos DB in vectorized form for efficient retrieval through Semantic Search.
+ 
+Next, the consultant leverages DocGen to utilize the vectorized requirements and her custom ontology. The ontology follows a structured format of chapters and sections. Starting with one chapter, she configures DocGen to refine the output iteratively within a chat thread. Once satisfied with a section, she saves the final version.
+ 
+After completing each section and ensuring all chapters are ready, the consultant previews the entire document and makes necessary adjustments. Satisfied with the results, she uses ASAP to generate the final document as a PDF, fully optimized for her customer’s needs.
